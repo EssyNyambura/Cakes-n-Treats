@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Order Menu</title>
+        
+    </head>
+ <body>
+    <h1>Menu</h1>
+    <ul>
+        <li>Cakes</li>
+        <li>Cookies</li>
+        <li>Muffins</li>
+    </ul>
+    </body>
+</html>
