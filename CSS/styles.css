@@ -1,13 +1,30 @@
 body {
+    
     text-align: center;
-    background-color: rgb(254, 173, 213);
+    background-color: rgb(255, 220, 237);/*Colour name:Pastel pink*/
 
 }
+
 #headerparent{
+    border: 1px solid black; 
+    display:flex;/*aligns items in a row*/
+    justify-content: center;
+    align-items: center;
     background-color: lavender;
-
+    
 
 }
+
+#logo{
+    display: block;
+	margin: auto;
+	width: 5%;
+	border: 1px dotted ; 
+	border-radius: 10px;
+    
+    
+}
+
 #nav ul{
     list-style-type: none;
     margin: 0;
@@ -28,4 +45,40 @@ body {
 }
 #nav li a :hover{
     background-color: lavender;
+}
+
+.sign-up-form{
+    width:300px;
+    border: 1px solid black; 
+    background: lavender;
+    padding: 20px;
+    margin: 8% auto;
+    text-align: center;
+
+
+}
+.sign-in-form{
+    width:300px;
+    border: 1px solid black; 
+    background: lavender;
+    padding: 20px;
+    margin: 8% auto;
+    text-align: center;
+}
+
+.resized-image{ /*resize image for*/
+    width: 400px;
+    height: 400px;
+}
+.resized-image2{/*resize images for cake images on home page*/
+    width: 200px;
+    height: 200px;
+}
+.capture-form{
+    width:300px;
+    border: 1px solid black; 
+    background: lavender;
+    padding: 20px;
+    margin: 8% auto;
+    text-align: center;
 }
