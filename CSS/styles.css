@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: rgb(254, 173, 213);
+
+}
+#headerparent{
+    background-color: lavender;
+
+
+}
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+	padding: 0;
+	overflow: hidden;
+    background-color: white;
+}
+#nav li{
+    float:left;
+}
+#nav li a{
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#nav li a :hover{
+    background-color: lavender;
+}
