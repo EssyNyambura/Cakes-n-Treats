@@ -8,6 +8,7 @@ body {
 #headerparent{
     border: 1px solid black; 
     display:flex;/*aligns items in a row*/
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: lavender;
