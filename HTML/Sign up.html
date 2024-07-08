@@ -7,13 +7,13 @@
         <link rel="stylesheet" href="../CSS/styles.css">
     </head>
     <body>
-        <div class="sign-up-form">
+        <div class="signupform">
             <h1>Sign Up</h1>
-            <form action="../PHP/signin.php" method="POST">
-                <input type ="name" placeholder="Name" required>
-                <input type ="email" placeholder="Email" required>
-                <input type="phonenumber" placeholder="phone number" required>
-                <input type="password" placeholder="password" required>
+            <form action="../PHP/signup.php" method="POST">
+                <input type ="name" name="customer_name" placeholder="Name" required>
+                <input type ="email" name="customer_email" placeholder="Email" required>
+                <input type="phonenumber" name="customer_phonenumber" placeholder="phone number" required>
+                <input type="password" name="password" placeholder="password" required>
                 <p><input type ="checkbox">I agree to the terms and conditions of the services</p>
                 <input type ="submit" value="Sign up">
             </form>

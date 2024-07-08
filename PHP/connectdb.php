@@ -6,11 +6,11 @@
 	$dbname = "bakery_orders";
 
 	# Establish a connection 
-	$conn = new mysqli($servername, $username, $password, $dbname);
+	$mysqli = new mysqli($servername, $username, $password, $dbname);
 
 	# Verify connection
-	if($conn->connect_error){
-        die("Connection failed!" . $conn->connect_error);  // Display the error message
+	if($mysqli->connect_error){
+        die("Connection failed!" . $mysqli->connect_error);  // Display the error message
     } else {
         echo "Connected successfully";  // Message indicating successful connection
 
