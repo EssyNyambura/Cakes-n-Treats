@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Sign up</title>
+        <meta charset = "utf-8">
+        <!--link to the extrenal css file-->
+        <link rel="stylesheet" href="../CSS/styles.css">
+    </head>
+    <body>
+        <div class="sign-up-form">
+            <h1>Sign Up</h1>
+            <form action="../PHP/signup.php" method="POST">
+                <input type ="name" name="customer_name" placeholder="Name" required>
+                <input type ="email" name="customer_email" placeholder="Email" required>
+                <input type="phonenumber" name="customer_phonenumber" placeholder="Phone number" required>
+                <input type="password" name="password" placeholder="password" required>
+                <p><input type ="checkbox">I agree to the terms and conditions of the services</p>
+                <input type ="submit" value="Sign up">
+            </form>
+        </div>
+        </body>
+        </html>
