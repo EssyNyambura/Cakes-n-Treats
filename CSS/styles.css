@@ -32,6 +32,13 @@ body{
     text-align: center;
     
 }
+.captureform{
+    width: 300px;
+    background-color: #f9f9ff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
 .resizedimage{
     width:250%;
     height:250%;

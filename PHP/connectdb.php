@@ -1,5 +1,5 @@
 <?php
-	# Declare the database credentials
+	# database credentials for the bakery's database
 	$servername = "localhost";
 	$username = "root";
 	$password = "DBPASsword";
