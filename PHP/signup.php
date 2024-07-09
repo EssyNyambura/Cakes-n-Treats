@@ -1,6 +1,6 @@
 <?php
 require 'connectdb.php';
-
+//to get users credentials
  $username = $_POST['customer_name'];
  $email = $_POST['customer_email'];
  $phonenumber = $_POST['customer_phonenumber'];
