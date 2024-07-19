@@ -9,6 +9,9 @@ require 'connectdb.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
     <title>Profile</title>
 </head>
 <body>
@@ -17,7 +20,7 @@ require 'connectdb.php';
         <div class= "wrapper">
         <?php 
         if (!isset($_SESSION['customer_name'])) {
-            echo "No customer found in session.";
+            echo "Oops! No customer profile available. Please sign up or log in first.";
             exit;
         }
         
@@ -87,7 +90,8 @@ require 'connectdb.php';
         echo "</table>";
 
         ?>
-        <li><a href ="../HTML/edituser.html" >EDIT</a></li>
+        <a href ="../HTML/editprofile.html" ><button class="button">EDIT</button></a>
+        <a href ="../PHP/deleteprofile.php" ><button class="button">DELETE</button></a>
         
         </div>
     </div>

@@ -12,7 +12,7 @@
 	if($mysqli->connect_error){
         die("Connection failed!" . $mysqli->connect_error);  // Display the error message
     } else {
-        echo "Connected successfully";  // Message indicating successful connection
+       // echo "Connected successfully";  // Message indicating successful connection
 
 	}
 

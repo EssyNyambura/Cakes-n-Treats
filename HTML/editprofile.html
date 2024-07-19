@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link to the extrenal css file-->
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <!--links to google font api-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
     <title>Update user</title>
 </head>
 <body>
@@ -18,7 +23,10 @@
         <label for="customer_phonenumber">Phone Number:</label>
         <input type="text" name="customer_phonenumber" id="customer_phonenumber" value="" required>
         <br>
-        <button type="submit">Edit Profile</button>
+        <label for="passwordr">Password:</label>
+        <input type="password" name="password" id="password" value="" required>
+        <br>
+        <input type ="submit" value="Edit" class="button">
     </form>
     </div>
 </header>    

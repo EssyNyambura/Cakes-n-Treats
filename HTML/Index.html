@@ -5,7 +5,12 @@
         <meta charset = "utf-8">
         <!--link to the extrenal css file-->
         <link rel="stylesheet" href="../CSS/styles.css">
+        <!--links to google font api-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
         <!--link to javascript file-->
+        <script src="../JS/myscript.js"></script>
         
     </head>
     <body>
@@ -13,11 +18,11 @@
         <header>
         
             <div id ="headerparent">
-            <div id = "child1">
-                <img src ="../IMAGES/Cake.logo.jpg" alt="logo" id="logo">
-                <h1>CAKES 'n' TREATS</h1>
-                <li><a href="Sign up.html">Sign Up</a></li>
-                <li><a href="Sign in.html">Sign In</a></li>
+                 <div id = "child1">
+                     <img src ="../IMAGES/Cake.logo.jpg" alt="logo" id="logo">
+                     <h1>CAKES 'n' TREATS</h1>
+                     <a href="Sign up.html"><button class="button">Sign Up</button></a>
+                     <a href="Sign in.html"><button class="button">Sign In</button></a></li>
                 
                 </div>
             </div>
@@ -28,27 +33,29 @@
                 
                 <li><a href="Index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
+                <li><a href="../PHP/viewprofile.php">Profile</a></li> 
                 <li><a href="About us.html">About us</a></li>
                 <li><a href="Contact.html">Contact Us</a></li>
                 <li><a href="Location.html">Locations</a></li> 
-                <li><a href="../PHP/viewprofile.php">Profile</a></li> 
                 
             </ul>
         </nav>
         </div>
         <p><b>For all your sweet tooth needs</b></p>   
         <!--links to the images-->
-    <div>
-    <img src="../IMAGES/Pink Champagne Cupcakes.jpg" alt="pink cupcakes" id="image">
-    <p>Strawberry cupcakes</p><br>
-    <img src="../IMAGES/chocolate cake.jpg" alt="pink cupcakes" id="image">
-    <p>Chocolate Fudge Cake</p>
-    <img src="../IMAGES/chocolate chip cookies.jpg" alt="pink cupcakes" id="image">
-    <p>Chocolate chip cookies</p>
-    <img src="../IMAGES/chocolate muffins.jpg" alt="pink cupcakes" id="image">
-    <p>Chocolate muffins</p>
+    <div class="image-align">
     
+    <img src="../IMAGES/vanilla cake flowers.jpg" alt="vanilla cupcakes" id="image">
+    
+    <img src="../IMAGES/chocolate chip cookies.jpg" alt="Chocolate cake" id="image">
+    
+    <img src="../IMAGES/vanilla cupcake sugar pearls.jpg" alt="Chocolate chip cookies" id="image">
+    
+    <img src="../IMAGES/sugar cookies.jpg" alt="Chocolate muffins" id="image">
+    <a href="Capture.html"><button onclick="ordermsg" class="button">Order now</button></a>
+
     </div>
+    
         </header>
     <div>    
         <footer id="footer">

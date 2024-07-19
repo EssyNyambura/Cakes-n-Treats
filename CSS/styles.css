@@ -1,13 +1,30 @@
 body{
     text-align: center;
     background-color:#fffdfe;
+    font-family: "Cookie", cursive;
+    color: rgb(160, 160, 254);
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
 }
 #headerparent{
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f9f9ff;
+    background-color: #fff9fe;
+}
+
+.button{
+    background-color: #ffc0df;
+    border-color: #ffc0df;
+    border-radius: 12px;
+    
+
+
+}
+.button:hover{
+    background-color:#fffdfe;
 }
 #logo{
     display: block;
@@ -84,7 +101,7 @@ body{
 
 #nav li a {
     display: block;
-    color: black;
+    color:rgb(160, 160, 254);
     text-align: center;
     padding: 8px;
     text-decoration: none;
@@ -115,6 +132,16 @@ body{
     border: 1px solid black;
     background-color: lavenderblush;
     padding: 1px;
+}
+
+.image-align{
+align-items: center;
+display: flex;
+flex-direction: row;
+margin: auto;
+gap:80px;
+padding: 5px;
+
 }
 
 .user-table {

@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <title>Welcome to Cakes 'n' Treats</title>
+        <title>Order</title>
         <meta charset = "utf-8">
         <!--link to the extrenal css file-->
         <link rel="stylesheet" href="../CSS/styles.css">
+        <!--links to google font api-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+        <script src="../JS/myscript.js" defer></script>
     </head>
     <body>
         
@@ -14,9 +19,6 @@
             <div id = "child1">
                 <img src ="../IMAGES/Cake.logo.jpg" alt="logo" id="logo">
                 <h1>CAKES 'n' TREATS</h1>
-                <li><a href="Sign up.html">Sign Up</a></li>
-                <li><a href="Sign in.html">Sign In</a></li>
-                
                 </div>
             </div>
                 
@@ -42,9 +44,9 @@
                 <form action="../PHP/orders.php" method="POST">
                     <input type ="text" name="item" placeholder="Item" required>
                     <input type ="text" name="quantity" placeholder="Quantity" required>
-                    <p><input type ="checkbox" redurired>Delivery</p>
-                    <p><input type ="checkbox" redurired>Pick up</p>
-                    <input type ="submit" value="Order">
+                    <p><input type="checkbox" id="deliveryCheckbox"> Delivery</p>
+                    <p><input type="checkbox" id="pickupCheckbox"> Pick up</p>
+                    <input type ="submit" value="Order" class="button" onsubmit="check(event)">
                 </form>
                </div>
 

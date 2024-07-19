@@ -9,6 +9,8 @@ require 'connectdb.php';
 $stmt = $mysqli->prepare($query);
 $stmt->bind_param('ss', $item,$quantity);
 
+header("location:../HTML/Index.html");
+
 if ($stmt->execute()) {
     echo 'Order received! Thank you for your order';
 } else {
