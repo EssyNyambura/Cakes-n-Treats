@@ -5,7 +5,7 @@ require 'connectdb.php';
  $quantity = $_POST['quantity'];
 
 
- $query = "INSERT INTO customer_order (order_name, order_quantity) VALUES (?, ?)";
+ $query = "INSERT INTO orders (order_item, order_quantity) VALUES (?, ?)";
 $stmt = $mysqli->prepare($query);
 $stmt->bind_param('ss', $item,$quantity);
 

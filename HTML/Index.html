@@ -5,6 +5,8 @@
         <meta charset = "utf-8">
         <!--link to the extrenal css file-->
         <link rel="stylesheet" href="../CSS/styles.css">
+        <!--link to javascript file-->
+        
     </head>
     <body>
         
@@ -13,35 +15,45 @@
             <div id ="headerparent">
             <div id = "child1">
                 <img src ="../IMAGES/Cake.logo.jpg" alt="logo" id="logo">
-                
+                <h1>CAKES 'n' TREATS</h1>
                 <li><a href="Sign up.html">Sign Up</a></li>
                 <li><a href="Sign in.html">Sign In</a></li>
                 
                 </div>
             </div>
-                
-                <h1>CAKES 'n' TREATS</h1>
-                <p><b>For all your sweet tooth needs</b></p>    
-                
-        <nav id="nav">
+                    
+        <div id="nav">       
+        <nav>
             <ul>
                 
                 <li><a href="Index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="About us.html">About us</a></li>
                 <li><a href="Contact.html">Contact Us</a></li>
-                <li><a href="Location.html">Locations</a></li>
+                <li><a href="Location.html">Locations</a></li> 
+                <li><a href="../PHP/viewprofile.php">Profile</a></li> 
                 
             </ul>
-    </nav>
-        <!--link to the image-->
-    <img src="../IMAGES/Pink Champagne Cupcakes.jpg" alt="Chocolate cake" class="resized-image">
+        </nav>
+        </div>
+        <p><b>For all your sweet tooth needs</b></p>   
+        <!--links to the images-->
+    <div>
+    <img src="../IMAGES/Pink Champagne Cupcakes.jpg" alt="pink cupcakes" id="image">
+    <p>Strawberry cupcakes</p><br>
+    <img src="../IMAGES/chocolate cake.jpg" alt="pink cupcakes" id="image">
+    <p>Chocolate Fudge Cake</p>
+    <img src="../IMAGES/chocolate chip cookies.jpg" alt="pink cupcakes" id="image">
+    <p>Chocolate chip cookies</p>
+    <img src="../IMAGES/chocolate muffins.jpg" alt="pink cupcakes" id="image">
+    <p>Chocolate muffins</p>
     
+    </div>
         </header>
-        
-        <footer>
+    <div>    
+        <footer id="footer">
             <p>&copy; 2024 CAKES 'N' TREATS. All rights reserved</p>
         </footer>
-    
+    </div>
     </body>
 </html>

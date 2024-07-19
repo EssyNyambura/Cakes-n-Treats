@@ -8,12 +8,13 @@ require 'connectdb.php';
 
  $hashed_password= password_hash($password, PASSWORD_DEFAULT);
 
- $query = "INSERT INTO customer (customer_name, customer_email, customer_phonenumber, password) VALUES (?, ?, ?,?)";
+$query = "INSERT INTO customer (customer_name, customer_email, customer_phonenumber, password) VALUES (?, ?, ?,?)";
 $stmt = $mysqli->prepare($query);
 $stmt->bind_param('ssss', $username,$email,$phonenumber,$hashed_password);
 
 if ($stmt->execute()) {
     echo 'Registration successful';
+    header("location:../HTML/Index.html");
 } else {
     echo 'Error: ' . $stmt->error;
 }
