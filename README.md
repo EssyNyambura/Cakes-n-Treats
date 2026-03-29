@@ -16,5 +16,7 @@ The web application is built using:
 <ul>
   <li>HTML</li>
   <li>CSS</li>
+  <li>PHP</li>
+  <li>JavaScript</li>
 </ul>
 
